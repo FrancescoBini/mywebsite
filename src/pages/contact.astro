@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout>
+  <div class="max-w-2xl mx-auto px-4 py-20">
+    <h1 class="text-3xl font-bold mb-8">Contact</h1>
+    <div class="space-y-6">
+      <p class="text-gray-600">
+        Feel free to reach out to me through any of the following channels:
+      </p>
+      
+      <div class="space-y-4">
+        <a
+          href="mailto:your.email@example.com"
+          class="block text-gray-800 hover:text-gray-600 transition-colors"
+        >
+          <span class="font-medium">Email:</span> your.email@example.com
+        </a>
+        
+        <a
+          href="https://github.com/yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="block text-gray-800 hover:text-gray-600 transition-colors"
+        >
+          <span class="font-medium">GitHub:</span> @yourusername
+        </a>
+        
+        <a
+          href="https://linkedin.com/in/yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="block text-gray-800 hover:text-gray-600 transition-colors"
+        >
+          <span class="font-medium">LinkedIn:</span> /in/yourusername
+        </a>
+      </div>
+    </div>
+  </div>
+</BaseLayout> 
